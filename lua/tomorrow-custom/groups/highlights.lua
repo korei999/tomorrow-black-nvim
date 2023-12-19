@@ -29,7 +29,7 @@ function M.highlight(palette, opts)
         },
         Comment = vim.tbl_extend(
         "force",
-        { fg = palette.medium_gray },
+        { fg = palette.medium_gray, italic = true },
         opts.styles.comments
         ),
         Folded = { fg = palette.light_gray, bg = palette.alt_bg },
@@ -86,7 +86,7 @@ function M.highlight(palette, opts)
         EndOfBuffer = { fg = palette.bg },
         NonText = { fg = palette.bg },
         Variable = vim.tbl_extend("force", { fg = palette.white }, opts.styles.variables),
-        String = { fg = palette.yellow },
+        String = { fg = palette.aqua },
         Character = { fg = palette.cyan },
         Constant = { fg = palette.white },
         Number = { fg = palette.purple },
@@ -99,7 +99,7 @@ function M.highlight(palette, opts)
         StorageClass = { fg = palette.blue },
         Structure = { fg = palette.blue },
         Typedef = { fg = palette.blue },
-        Keyword = vim.tbl_extend("force", { fg = palette.white }, opts.styles.keywords),
+        Keyword = vim.tbl_extend("force", { fg = palette.white, bold = true }, opts.styles.keywords),
         Statement = { fg = palette.blue },
         Conditional = { fg = palette.cyan },
         Repeat = { fg = palette.cyan },
