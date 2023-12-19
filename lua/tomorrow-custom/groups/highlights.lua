@@ -108,7 +108,7 @@ function M.highlight(palette, opts)
         Include = { fg = palette.blue },
         PreProc = { fg = palette.cyan },
         Define = { fg = palette.cyan },
-        Macro = { fg = palette.cyan },
+        Macro = { fg = palette.white },
         PreCondit = { fg = palette.cyan },
         Special = { fg = palette.white },
         SpecialChar = { fg = palette.blue },
