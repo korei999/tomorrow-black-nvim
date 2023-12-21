@@ -42,7 +42,7 @@ function M.highlight(palette, opts)
         -- ["@lsp.type.interface"] = { fg = palette.white },
         -- ["@lsp.type.typeParameter"] = { fg = palette.white },
         -- ["@lsp.type.keyword"] = { fg = palette.white },
-        -- ["@lsp.type.namespace"] = { fg = palette.white },
+        ["@lsp.type.namespace"] = { fg = palette.white },
         -- ["@lsp.type.parameter"] = { fg = palette.white },
         -- ["@lsp.type.property"] = { fg = palette.white },
         -- ["@lsp.type.variable"] = { fg = palette.white },
