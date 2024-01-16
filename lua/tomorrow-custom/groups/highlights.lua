@@ -97,7 +97,7 @@ function M.highlight(palette, opts)
         Operator = { fg = palette.white },
         Type = vim.tbl_extend("force", { fg = palette.blue }, opts.styles.type),
         StorageClass = { fg = palette.light_gray, bold = true },
-        Structure = { fg = palette.blue },
+        Structure = { fg = palette.blue, bold = true },
         Typedef = { fg = palette.blue },
         Keyword = vim.tbl_extend("force", { fg = palette.light_gray, bold = true }, opts.styles.keywords),
         Statement = { fg = palette.light_gray, bold = true },
