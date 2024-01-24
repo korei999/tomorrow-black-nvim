@@ -1,10 +1,11 @@
 # tomorrow-custom-nvim
+
 ![colors](https://github.com/korei999/tomorrow-custom-nvim/assets/93387739/950cd63e-781e-4e40-8c5c-aaf50f259ba4)
 
 Simplistic tomorrow colorscheme variation.
-Based on https://github.com/aktersnurra/no-clown-fiesta.nvim and https://github.com/chriskempson/tomorrow-theme.
+Based on [No Clown Fiesta](https://github.com/aktersnurra/no-clown-fiesta.nvim) and [Tomorrow Theme](https://github.com/chriskempson/tomorrow-theme).
 
-# usage
+### usage
 enable scheme:
 ```
 vim.cmd [[colorscheme tomorrow-custom]]
@@ -44,5 +45,5 @@ require("tomorrow-custom").setup({
 ```
 You might wan't to override these because this is meant to be used without treesitter and treesitter messess up some of the colors.
 
-# lualine
+### lualine
 There is also lualine colorscheme. Enable it inside lualine setup settings like `theme = 'tomorrow-custom'`.
