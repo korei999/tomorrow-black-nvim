@@ -19,6 +19,7 @@ require("tomorrow-custom").setup({
         functions = {},
         variables = {},
         type = {},
+        structures = { bold = true, italic = true },
         lsp = {},
     },
     custom_colors = {

@@ -8,6 +8,7 @@ local DEFAULT = {
         functions = {},
         variables = {},
         type = {},
+        structures = {},
         lsp = {},
     },
     custom_colors = {
