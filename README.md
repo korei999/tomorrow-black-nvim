@@ -42,3 +42,7 @@ require("tomorrow-custom").setup({
     },
 })
 ```
+You might wan't to override these because this is meant to be used without treesitter and treesitter messess up some of the colors.
+
+# lualine
+There is also lualine colorscheme. Enable it inside lualine setup settings like `theme = 'tomorrow-custom'`.
