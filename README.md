@@ -1,6 +1,7 @@
 # tomorrow-custom-nvim
-custom tomorrow colorscheme variant
+![colors](https://github.com/korei999/tomorrow-custom-nvim/assets/93387739/950cd63e-781e-4e40-8c5c-aaf50f259ba4)
 
+Simplistic tomorrow colorscheme variation.
 Based on https://github.com/aktersnurra/no-clown-fiesta.nvim and https://github.com/chriskempson/tomorrow-theme.
 
 # usage
