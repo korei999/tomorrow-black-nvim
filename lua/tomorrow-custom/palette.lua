@@ -1,20 +1,23 @@
+local settings = require "tomorrow-custom.settings"
+local opts = settings.opts
+
 local colors = {
-    none = "NONE",
-    fg = "#cccccc",
-    bg = "#121212",
-    alt_bg = "#1a1a1a",
-    accent = "#202020",
-    white = "#cccccc",
-    gray = "#373737",
-    medium_gray = "#727272",
-    light_gray = "#bababa",
-    blue = "#81a2be",
-    cyan = "#8abeb7",
-    red = "#cc6666",
-    yellow = "#f0c674",
-    purple = "#b294bb",
-    cursor_fg = "#0f0f0f",
-    cursor_bg = "#cccccc",
+    none = opts.custom_colors.none,
+    fg = opts.custom_colors.fg,
+    bg = opts.custom_colors.bg,
+    alt_bg = opts.custom_colors.alt_bg,
+    accent = opts.custom_colors.accent,
+    white = opts.custom_colors.white,
+    gray = opts.custom_colors.gray,
+    medium_gray = opts.custom_colors.medium_gray,
+    light_gray = opts.custom_colors.light_gray,
+    blue = opts.custom_colors.blue,
+    cyan = opts.custom_colors.cyan,
+    red = opts.custom_colors.red,
+    yellow = opts.custom_colors.yellow,
+    purple = opts.custom_colors.purple,
+    cursor_fg = opts.custom_colors.cursor_fg,
+    cursor_bg = opts.custom_colors.cursor_bg,
 }
 
 return colors
