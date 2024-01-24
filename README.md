@@ -14,7 +14,7 @@ require("tomorrow-custom").setup({
     transparent = false,
     styles = {
         comments = {},
-        keywords = {},
+        keywords = { fg = "#8abeb7", bold = false, italic = true },
         functions = {},
         variables = {},
         type = {},
