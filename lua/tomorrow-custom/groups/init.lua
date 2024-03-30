@@ -4,4 +4,5 @@ return {
     require "tomorrow-custom.groups.statusline",
     require "tomorrow-custom.groups.telescope",
     require "tomorrow-custom.groups.lsp",
+    require "tomorrow-custom.groups.treesitter",
 }
