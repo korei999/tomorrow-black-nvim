@@ -3,7 +3,7 @@ local M = {}
 function M.highlight(palette, opts)
     return {
         -- ["@annotation"] = { fg = palette.white },
-        -- ["@attribute"] = { fg = palette.white },
+        -- ["@attribute"] = { fg = palette.light_gray },
         -- ["@boolean"] = { fg = palette.blue, bold = true },
         -- ["@character"] = { fg = palette.green },
         -- ["@comment"] = { link = "Comment" },
@@ -27,7 +27,7 @@ function M.highlight(palette, opts)
         -- ["@keyword.coroutine"] = { fg = palette.gray_blue },
         -- ["@keyword.exception"] = { fg = palette.red },
         ["@keyword.function"] = vim.tbl_extend("force", { fg = palette.cyan }, opts.styles.keywords),
-        ["@keyword.import"] = { fg = palette.blue, bold = true },
+        ["@keyword.import"] = { fg = palette.light_gray, bold = true },
         -- ["@keyword.operator"] = { fg = palette.gray_blue },
         ["@keyword.repeat"] = { fg = palette.cyan },
         -- ["@label"] = { fg = palette.white },
