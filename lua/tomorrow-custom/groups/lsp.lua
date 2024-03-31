@@ -13,26 +13,10 @@ function M.highlight(palette, opts)
         DiagnosticVirtualTextWarn = { fg = palette.yellow },
         DiagnosticVirtualTextInfo = { fg = palette.white },
         DiagnosticVirtualTextHint = { fg = palette.white },
-        DiagnosticUnderlineError = vim.tbl_extend(
-        "force",
-        { sp = palette.red },
-        opts.styles.lsp
-        ),
-        DiagnosticUnderlineWarn = vim.tbl_extend(
-        "force",
-        { sp = palette.yellow },
-        opts.styles.lsp
-        ),
-        DiagnosticUnderlineInfo = vim.tbl_extend(
-        "force",
-        { sp = palette.white },
-        opts.styles.lsp
-        ),
-        DiagnosticUnderlineHint = vim.tbl_extend(
-        "force",
-        { sp = palette.white },
-        opts.styles.lsp
-        ),
+        DiagnosticUnderlineError = vim.tbl_extend("force", { sp = palette.red }, opts.styles.lsp),
+        DiagnosticUnderlineWarn = vim.tbl_extend("force", { sp = palette.yellow }, opts.styles.lsp),
+        DiagnosticUnderlineInfo = vim.tbl_extend("force", { sp = palette.white }, opts.styles.lsp),
+        DiagnosticUnderlineHint = vim.tbl_extend("force", { sp = palette.white }, opts.styles.lsp),
         LspSignatureActiveParameter = { bg = palette.alt_bg, bold = true },
         LspCodeLens = { fg = palette.light_gray },
 
