@@ -50,9 +50,7 @@ function M.highlight(palette, opts)
         WarningMsg = { fg = palette.red, bg = palette.bg },
         DiffAdd = { fg = palette.cyan },
         DiffText = { fg = palette.blue },
-        DiffChange = {
-            fg = palette.blue,
-        },
+        DiffChange = { fg = palette.blue, },
         DiffDelete = { fg = palette.red },
         QuickFixLine = { bg = palette.accent },
         PmenuSbar = { bg = palette.alt_bg },
