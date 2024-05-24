@@ -9,6 +9,7 @@ local DEFAULT = {
         variables = {},
         type = {},
         structures = {},
+        conditional = {},
         lsp = {},
     },
     custom_colors = {

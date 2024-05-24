@@ -23,7 +23,7 @@ function M.highlight(palette, opts)
         -- ["@function.method"] = { fg = palette.cyan },
         -- ["@function.method.call"] = { fg = palette.cyan },
         -- ["@keyword"] = vim.tbl_extend("force", { fg = palette.gray_blue }, opts.styles.keywords),
-        ["@keyword.conditional"] = { fg = palette.cyan },
+        ["@keyword.conditional"] = vim.tbl_extend("force", { fg = palette.light_gray, bold = true }, opts.styles.conditional),
         -- ["@keyword.coroutine"] = { fg = palette.gray_blue },
         -- ["@keyword.exception"] = { fg = palette.red },
         ["@keyword.function"] = vim.tbl_extend("force", { fg = palette.cyan }, opts.styles.keywords),
