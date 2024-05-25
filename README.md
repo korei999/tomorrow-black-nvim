@@ -1,4 +1,4 @@
-# tomorrow-custom-nvim
+# tomorrow-black-nvim
 
 ![2024-05-25-19_43_18-screenshot](https://github.com/korei999/tomorrow-custom-nvim/assets/93387739/0d7ab458-92c7-450f-9495-2c524bbae577)
 
@@ -9,11 +9,11 @@ Based on [No Clown Fiesta](https://github.com/aktersnurra/no-clown-fiesta.nvim) 
 ### Usage
 enable scheme:
 ```
-vim.cmd.colorscheme('tomorrow-custom') 
+vim.cmd.colorscheme('tomorrow-black') 
 ```
 its possible to override some of the defaults before enabling:
 ```
-require("tomorrow-custom").setup({
+require("tomorrow-black").setup({
     transparent = true,
     styles = {
         -- comments = {},
@@ -46,7 +46,7 @@ require("tomorrow-custom").setup({
     -- },
 })
 
-vim.cmd.colorscheme('tomorrow-custom') 
+vim.cmd.colorscheme('tomorrow-black') 
 ```
 ### lualine
 There is also lualine colorscheme. Enable it inside lualine setup settings: `theme = 'tomorrow-custom'`.
