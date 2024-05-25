@@ -49,4 +49,4 @@ require("tomorrow-black").setup({
 vim.cmd.colorscheme('tomorrow-black') 
 ```
 ### lualine
-There is also lualine colorscheme. Enable it inside lualine setup settings: `theme = 'tomorrow-custom'`.
+There is also lualine colorscheme. Enable it inside lualine setup settings: `theme = 'tomorrow-black'`.
