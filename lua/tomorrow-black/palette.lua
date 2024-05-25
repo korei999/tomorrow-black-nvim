@@ -1,4 +1,4 @@
-local settings = require "tomorrow-custom.settings"
+local settings = require "tomorrow-black.settings"
 local opts = settings.opts
 
 local colors = {

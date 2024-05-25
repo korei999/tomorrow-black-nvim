@@ -1,14 +1,14 @@
 local M = {}
 
 function M.setup(opts)
-    local settings = require "tomorrow-custom.settings"
+    local settings = require "tomorrow-black.settings"
     if opts then
         settings.set(opts)
     end
 end
 
 function M.load()
-    local settings = require "tomorrow-custom.settings"
+    local settings = require "tomorrow-black.settings"
     local opts = settings.opts
 
     vim.api.nvim_command "hi clear"
@@ -18,11 +18,11 @@ function M.load()
 
     vim.o.background = "dark"
     vim.o.termguicolors = true
-    vim.g.colors_name = "tomorrow-custom"
+    vim.g.colors_name = "tomorrow-black"
 
-    local util = require "tomorrow-custom.util"
-    local palette = require "tomorrow-custom.palette"
-    local groups = require "tomorrow-custom.groups"
+    local util = require "tomorrow-black.util"
+    local palette = require "tomorrow-black.palette"
+    local groups = require "tomorrow-black.groups"
 
     for _, group in ipairs(groups) do
         group = group.highlight(palette, opts)
