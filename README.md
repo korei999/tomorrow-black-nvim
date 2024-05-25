@@ -1,6 +1,6 @@
 # tomorrow-black-nvim
 
-![2024-05-25-19_43_18-screenshot](https://github.com/korei999/tomorrow-custom-nvim/assets/93387739/0d7ab458-92c7-450f-9495-2c524bbae577)
+![kmp10](https://github.com/korei999/tomorrow-black-nvim/assets/93387739/909d949a-a3b8-4dc8-b16c-79130ec3bc85)
 
 This colorscheme tries to be simultaneously easy on eyes, high-contrast while being mostly white on black with minimal set of colors, and uses bold/italics or slightly different shades to keep different kind of objects distinguishable.
 
