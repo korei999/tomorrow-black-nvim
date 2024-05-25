@@ -1,47 +1,52 @@
 # tomorrow-custom-nvim
 
-![colors](https://github.com/korei999/tomorrow-custom-nvim/assets/93387739/950cd63e-781e-4e40-8c5c-aaf50f259ba4)
+![2024-05-25-19_43_18-screenshot](https://github.com/korei999/tomorrow-custom-nvim/assets/93387739/0d7ab458-92c7-450f-9495-2c524bbae577)
 
-Simplistic tomorrow colorscheme variation.
+This colorscheme tries to be simultaneously easy on eyes, high-contrast while being mostly white on black with minimal set of colors, and uses bold/italics or slightly different shades to keep different kind of objects distinguishable.
+
 Based on [No Clown Fiesta](https://github.com/aktersnurra/no-clown-fiesta.nvim) and [Tomorrow Theme](https://github.com/chriskempson/tomorrow-theme).
 
-### usage
+### Usage
 enable scheme:
 ```
-vim.cmd [[colorscheme tomorrow-custom]]
+vim.cmd.colorscheme('tomorrow-custom') 
 ```
-override defaults:
+its possible to override some of the defaults before enabling:
 ```
 require("tomorrow-custom").setup({
-    transparent = false,
+    transparent = true,
     styles = {
-        comments = {},
+        -- comments = {},
         keywords = { fg = "#8abeb7", bold = false, italic = true },
-        functions = {},
-        variables = {},
-        type = {},
+        -- functions = {},
+        -- variables = {},
+        -- type = {},
         structures = { bold = true, italic = true },
-        lsp = {},
+        -- conditionals = {},
+        -- lsp = {},
+        -- loops = {},
     },
-    custom_colors = {
-        none = "NONE",
-        fg = "#cccccc",
-        bg = "#121212",
-        alt_bg = "#1a1a1a",
-        accent = "#202020",
-        white = "#cccccc",
-        gray = "#373737",
-        medium_gray = "#727272",
-        light_gray = "#bababa",
-        blue = "#81a2be",
-        cyan = "#8abeb7",
-        red = "#cc6666",
-        yellow = "#f0c674",
-        purple = "#b294bb",
-        cursor_fg = "#0f0f0f",
-        cursor_bg = "#cccccc",
-    },
+    -- custom_colors = {
+        -- none = "NONE",
+        -- fg = "#c5c5c5",
+        -- bg = "#000000",
+        -- alt_bg = "#1a1a1a",
+        -- accent = "#202020",
+        -- white = "#c5c5c5",
+        -- gray = "#373737",
+        -- medium_gray = "#727272",
+        -- light_gray = "#b0b0b0",
+        -- lighter_gray = "#bbbbbb",
+        -- blue = "#6A9FB5",
+        -- cyan = "#75B5AA",
+        -- red = "#AC4242",
+        -- yellow = "#F4BF75",
+        -- cursor_fg = "#000000",
+        -- cursor_bg = "#cccccc",
+    -- },
 })
+
+vim.cmd.colorscheme('tomorrow-custom') 
 ```
 ### lualine
-There is also lualine colorscheme. Enable it inside lualine setup settings like `theme = 'tomorrow-custom'`.
+There is also lualine colorscheme. Enable it inside lualine setup settings: `theme = 'tomorrow-custom'`.
