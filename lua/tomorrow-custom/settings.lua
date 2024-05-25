@@ -9,8 +9,9 @@ local DEFAULT = {
         variables = {},
         type = {},
         structures = {},
-        conditional = {},
+        conditionals = {},
         lsp = {},
+        loops = {},
     },
     custom_colors = {
         none = "NONE",
