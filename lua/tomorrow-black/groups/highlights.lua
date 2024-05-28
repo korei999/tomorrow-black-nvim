@@ -93,7 +93,7 @@ function M.highlight(palette, opts)
         Ignore = { fg = palette.cyan, bg = palette.bg, bold = true },
         Todo = { fg = palette.yellow, bg = palette.bg, bold = true },
         Error = { fg = palette.white, bg = palette.bg, bold = true },
-        TabLine = { fg = palette.gray, bg = palette.alt_bg },
+        TabLine = { fg = palette.medium_gray, bg = palette.alt_bg },
         TabLineSel = { fg = palette.white, bg = palette.alt_bg },
         TabLineFill = { fg = palette.white, bg = palette.alt_bg },
         WinSeparator = { fg = palette.medium_gray, bg = palette.bg },
