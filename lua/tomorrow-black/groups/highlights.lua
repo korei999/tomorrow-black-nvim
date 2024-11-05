@@ -36,7 +36,7 @@ function M.highlight(palette, opts)
         -- PmenuSbar = { bg = palette.alt_bg },
         -- PmenuThumb = { bg = palette.light_gray },
         -- MatchWord = { underline = true },
-        -- MatchParen = { fg = palette.red, bg = palette.bg, underline = true, bold = true },
+        MatchParen = { fg = palette.red, bg = palette.bg, underline = true, bold = true },
         -- MatchWordCur = { underline = true },
         -- MatchParenCur = { underline = true },
         Cursor = { fg = palette.cursor_fg, bg = palette.cursor_bg },
