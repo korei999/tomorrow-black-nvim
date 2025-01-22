@@ -65,7 +65,7 @@ function M.highlight(palette, opts)
         Float = { fg = palette.blue },
         Identifier = { fg = palette.white },
         Function = vim.tbl_extend("force", { fg = palette.white, italic = true }, opts.styles.functions),
-        Operator = { fg = palette.white },
+        Operator = vim.tbl_extend("force", { fg = palette.white }, opts.styles.operators),
         Type = vim.tbl_extend("force", { fg = palette.light_gray, bold = true }, opts.styles.type),
         StorageClass = { fg = palette.lighter_gray, bold = true },
         Structure = vim.tbl_extend("force", { fg = palette.light_gray, bold = true, italic = true }, opts.styles.structures),

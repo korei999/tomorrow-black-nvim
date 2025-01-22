@@ -6,6 +6,7 @@ local DEFAULT = {
         comments = {},
         keywords = {},
         functions = {},
+        operators = {},
         variables = {},
         type = {},
         structures = {},
