@@ -8,6 +8,7 @@ local DEFAULT = {
         functions = {},
         operators = {},
         variables = {},
+        strings = {},
         type = {},
         structures = {},
         conditionals = {},
