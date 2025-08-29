@@ -55,7 +55,7 @@ function M.highlight(palette, opts)
         -- MoreMsg = { fg = palette.cyan },
         -- Question = { fg = palette.cyan },
         -- EndOfBuffer = { fg = palette.bg },
-        NonText = { fg = palette.bg },
+        NonText = { fg = palette.white, bg = palette.alt_bg },
         Variable = vim.tbl_extend("force", { fg = palette.white }, opts.styles.variables),
         String = vim.tbl_extend("force", { fg = palette.yellow }, opts.styles.strings),
         Character = { fg = palette.cyan },
